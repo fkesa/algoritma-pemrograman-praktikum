@@ -1,0 +1,26 @@
+program durasi_nonton_film
+kamus
+    i, n, durasi_menit, total_menit, jam, menit : integer
+algoritma
+    input(n)
+	total_menit <- 0
+	for i <- 1 to n do 
+		input(durasi_menit)
+		total_menit <- durasi_menit 
+	endfor
+	jam <- total_menit DIV 60
+	menit <- total_menit MOD 60
+	output(jam, menit)
+endprogram
+
+program tabungan_mingguan
+kamus
+    i, n, saldo_awal, kenaikan, saldo : integer
+algoritma
+	input(n, saldo_awal, kenaikan)
+	saldo <- saldo_awal
+	for i <- 1 to n do
+		saldo <- saldo + i*kenaikan
+	endfor
+	output(saldo)
+endprogram
