@@ -1,0 +1,31 @@
+program gedung
+kamus
+	n : int
+algoritma
+	input(n)
+	if n <= 40 THEN
+		output("TULT")
+	ELSEIF 41 <= n && n <= 60 THEN
+		output("Tokong Nanas")
+	ELSEIF 61 <= n && n <= 100 THEN
+		output("Cacuk")
+	ELSE
+		output("Kapasitas ruangan tidak mencukupi")
+	ENDIF
+endprogram
+
+program ganjil_genap
+kamus
+	angka : integer
+	cek_ganjil : bool
+algoritma
+    input(angka)
+	IF 1 <= angka AND angka <= 100 THEN
+		cek_ganjil <- angka%2 != 0
+		if cek_ganjil == true THEN
+			output("Ganjil")
+		ELSE
+			output("Genap")
+		ENDIF
+	ENDIF
+endprogram
