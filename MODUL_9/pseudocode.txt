@@ -21,7 +21,7 @@ kamus
 algoritma
     input(angka)
 	IF 1 <= angka AND angka <= 100 THEN
-		cek_ganjil <- angka%2 != 0
+		cek_ganjil <- angka MOD 2 != 0
 		if cek_ganjil == true THEN
 			output("Ganjil")
 		ELSE
