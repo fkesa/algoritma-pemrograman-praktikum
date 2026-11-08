@@ -1,6 +1,6 @@
 program gedung
 kamus
-	n : int
+	n : integer
 algoritma
 	input(n)
 	if n <= 40 THEN
